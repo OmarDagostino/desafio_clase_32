@@ -4,10 +4,11 @@
 ## Autor : Omar D'Agostino
 
 ## Funcionalidades agregadas 
-    * Se creo una clase con un diccionario de errores en el archivo errorDictionary.js que devuelve el mensaje de error al solicitar el metodo getErrorMesage () con el codigo correspondiente.
+    * Se creo la ruta /mockingproducts para generar y develver 100 productos falsos con faker-js
 
-    * Se creo la ruta '/mockingproducts' que devuelve el array products conteniendo 100 productos ficticios generados por faker-js con el formato solicitado. 
+    * Se creo un diccionario de errores y un error handler para manejar los errores de la aplicacion, se implemento para los carritos y productos
 
+    
 
 ## Tecnologías utilizadas : 
 - Node JS : v18.16.1
@@ -39,11 +40,3 @@
     "socket.io": "^4.7.2",
     "socket.io-client": "^4.7.2"
 
-
-
-   
-   
-
-   
-
-   Nota : Se desconecto el manejador de rutas de File System , pero no se eliminó (quedo en un manager separado y se comento en el código de app.js)
